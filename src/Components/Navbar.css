@@ -1,0 +1,22 @@
+.dropdwn{
+    
+    background-color: #0d6efd;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    width: 1500px;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.main-style{
+    border-radius: 0px !important;
+}
+.dropdown-menu.show{
+    transform: translate3d(1.6px, 37px, 0px) !important;
+    border-radius: 0px 0px 7px 7px;
+}
+
+.nav-btn{
+    border-radius: 0px 0px 0px 0px !important;
+}

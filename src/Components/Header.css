@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    height: 10vh;
+    background: rgb(245 245 245);
+  }
+  .header-title {
+    cursor: pointer;
+  }
+  .search-bar {
+    color: rgb(200, 200, 200) !important;
+  }
+  
+  .search-desktop {
+    display: none;
+    border: 0px solid transparent !important;
+    /* width: 500px !important; */
+    color: rgb(137, 132, 132) !important;
+  }
+  
