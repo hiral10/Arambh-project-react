@@ -59,7 +59,7 @@ const Gallery = () => {
             <div key={index}>
               <div className="mySlides" >
                 <div className="numbertext">{index + 1} / {data.length}</div>
-                <img src={item.image} style={{ width: "76.8vw", height: "400px" }} />
+                <img src={item.image} style={{ width: "100%", height: "400px" }} />
               </div>
             </div>
           )

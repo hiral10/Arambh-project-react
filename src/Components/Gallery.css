@@ -78,7 +78,8 @@ body {
     background-color: #222;
     padding: 2px 16px;
     color: white;
-    width: 76.8vw;
+    /* width: 76.8vw; */
+    margin: auto;
   }
   
   .row:after {
@@ -90,17 +91,27 @@ body {
   /* Six columns side by side */
   .column {
     float: left;
-    width: 16.66%;
+    /* width: 16.66%; */
     display: flex;
+    justify-content: center;
   }
   
   /* Add a transparency effect for thumnbail images */
   .demo {
     opacity: 0.6;
-    width: 12.8vw !important;
+    width: 12.6vw !important;
   }
   
   .active,
   .demo:hover {
     opacity: 1;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .numbertext {
+      margin-left: 34px;
+    }
+    .caption-container{
+      margin-left: 43px;
+    }
   }
