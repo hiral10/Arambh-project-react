@@ -1,9 +1,16 @@
 import { Box, Typography } from "@mui/material"
+import Card from "./Card"
+import Footer from "./Footer"
+import Header from "./Header"
+import Navbar from "./Navbar"
+import Slider from "./Slider"
 
 const HomePage=()=>{
 return(
-    <Box className="home">
-        <Typography variant="h1">Home</Typography>
+    <Box>
+         
+    <Slider/>
+    <Card/>
     </Box>
 )
 }

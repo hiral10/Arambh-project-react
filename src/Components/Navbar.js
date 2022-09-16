@@ -173,7 +173,7 @@ function Navbar() {
                     })}
                 </Dropdown.Menu>
             </Dropdown>
-            <Link to="/">
+            <Link to="/Gallery">
                 <Button className='nav-btn' variant="primary">Gallery</Button></Link>
         </Box>
     );
