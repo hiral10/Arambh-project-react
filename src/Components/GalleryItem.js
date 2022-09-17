@@ -23,5 +23,6 @@ export const data=[
     {
         image:"https://havecamerawilltravel.com/content/photos/webp-test/800px-05.webp",
         title:"River View"
-    }
+    },
+    
 ]
